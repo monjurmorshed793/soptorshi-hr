@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "org.soptorshi"
+    },
+    "jhipsterVersion": "6.5.0",
+    "applicationType": "microservice",
+    "baseName": "SoptorshiHr",
+    "packageName": "org.soptorshi",
+    "packageFolder": "org/soptorshi",
+    "serverPort": "8081",
+    "authenticationType": "uaa",
+    "uaaBaseName": "SoptorshiOauth",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "Y2RlYzZlYzA3MGM2ZjY4MzFiMjU5YzcxZjM5NDIyODgwZTFhOGVlOTNkZmMyNjkwY2Q4NDU2YWQ2NzhjMGVmMTU0N2RkYzI1NWEyOTljMWZkMjgxMTI0YjU5NGJlMjUwNGRkMTZiYzlhNDA3YjAzNTdhMjBlYjc2ODM1N2YzMGE=",
+    "embeddableLaunchScript": false,
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
